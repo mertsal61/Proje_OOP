@@ -1,8 +1,10 @@
-﻿namespace Proje_OOP.Ornekler
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Proje_OOP.Ornekler
 {
-    public class Class1
+    public class Class1 
     {
-        public void toplta()
+        public void topla()
         {
             int sayi1 = 10;
             int sayi2 = 20;
